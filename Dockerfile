@@ -1,4 +1,4 @@
-FROM php:7.4-fpm-alpine
+FROM php:7.4-alpine3.13
 
 RUN mkdir -p /run/nginx && mkdir -p /run/php && \
     apk add --update bash nginx jq unzip vim zip \
